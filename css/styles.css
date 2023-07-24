@@ -1,0 +1,99 @@
+:root {
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navyblue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--lightslate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navybluemodal: #2e2f42;
+	--grey: #2e2f42;
+	--white: #ffffff;
+	--dairy: #fcfcfc;
+	--activehover: #000000;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	color: var(--slate);
+	line-height: 1.2;
+}
+.interactive:hover {
+	cursor: pointer;
+}
+.interactive:focus {
+	color: var(--activehover);
+}
+.button-one {
+	background-color: var(--iris);
+	color: var(--white);
+	font-weight: 500;
+}
+.button-one:hover {
+	background-color: var(--ocean);
+	color: var(--white);
+}
+.button-two {
+	background-color: var(--ocean);
+	color: var(--white);
+	font-weight: 500;
+}
+.button-two:hover {
+	background-color: var(--iris);
+	color: var(--white);
+}
+.button-three {
+	background-color: var(--cornflower);
+	color: var(--iris);
+	font-weight: 500;
+}
+.button-three:hover {
+	background-color: var(--cloud);
+}
+.dark-bg {
+	background-color: var(--navyblue);
+}
+.web {
+	font-family: "Raleway", sans-serif;
+	color: var(--iris);
+	font-weight: 800;
+	font-size: 18px;
+}
+.studio {
+	font-family: "Raleway", sans-serif;
+	color: var(--navyblue);
+	font-weight: 800;
+	font-size: 18px;
+}
+.footer {
+	color: var(--cloud);
+}
+.navi {
+	color: var(--navyblue);
+	font-weight: 500;
+}
+.navi:hover {
+	color: var(--ocean);
+}
+.contact {
+	color: var(--slate);
+	font-size: 16px;
+}
+.contact:hover {
+	color: var(--ocean);
+}
+.header-one {
+	color: var(--white);
+	font-weight: 700;
+	font-size: 56px;
+}
+.header-two {
+	color: var(--navyblue);
+	font-weight: 700;
+	font-size: 36px;
+}
+.header-three {
+	color: var(--navyblue);
+	font-weight: 500;
+	font-size: 20px;
+}

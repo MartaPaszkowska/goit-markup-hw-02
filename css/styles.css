@@ -16,84 +16,111 @@
 body {
 	font-family: "Roboto", sans-serif;
 	color: var(--slate);
-	line-height: 1.2;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+.logo {
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-align: left;
+}
+.web {
+	color: var(--iris);
+}
+.studio {
+	color: var(--navyblue);
+}
+.navi {
+	font-weight: 500;
+	text-align: left;
+	color: var(--navyblue);
+}
+.contact {
+	color: var(--slate);
+}
+.interactive {
+	text-decoration: none;
 }
 .interactive:hover {
 	cursor: pointer;
+	color: var(--ocean);
+	text-decoration-line: underline;
+	border-radius: 2px;
 }
 .interactive:focus {
 	color: var(--activehover);
 }
-.button-one {
-	background-color: var(--iris);
+.header-one {
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 1.07;
+	letter-spacing: 0.02em;
+	text-align: center;
 	color: var(--white);
-	font-weight: 500;
-}
-.button-one:hover {
-	background-color: var(--ocean);
-	color: var(--white);
-}
-.button-two {
-	background-color: var(--ocean);
-	color: var(--white);
-	font-weight: 500;
-}
-.button-two:hover {
-	background-color: var(--iris);
-	color: var(--white);
-}
-.button-three {
-	background-color: var(--cornflower);
-	color: var(--iris);
-	font-weight: 500;
-}
-.button-three:hover {
-	background-color: var(--cloud);
 }
 .dark-bg {
 	background-color: var(--navyblue);
+	color: var(--cloud);
 }
-.web {
-	font-family: "Raleway", sans-serif;
-	color: var(--iris);
-	font-weight: 800;
-	font-size: 18px;
+.button {
+	font-weight: 500;
+	letter-spacing: 0.04em;
+	border-radius: 4px;
+	border: none;
 }
-.studio {
-	font-family: "Raleway", sans-serif;
+.button:hover {
+	cursor: pointer;
+}
+.button:focus {
+	color: var(--activehover);
+}
+.b-one {
+	text-align: left;
+	color: var(--white);
+	background-color: var(--iris);
+	border: none;
+}
+.b-one:hover {
+	background-color: var(--ocean);
+}
+.header-three {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	text-align: left;
 	color: var(--navyblue);
-	font-weight: 800;
-	font-size: 18px;
+}
+.header-two {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.1;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: var(--navyblue);
 }
 .footer {
 	color: var(--cloud);
 }
-.navi {
-	color: var(--navyblue);
-	font-weight: 500;
-}
-.navi:hover {
-	color: var(--ocean);
-}
-.contact {
-	color: var(--slate);
-	font-size: 16px;
-}
-.contact:hover {
-	color: var(--ocean);
-}
-.header-one {
+.b-two {
+	text-align: center;
+	background-color: var(--ocean);
 	color: var(--white);
-	font-weight: 700;
-	font-size: 56px;
+	border: none;
 }
-.header-two {
-	color: var(--navyblue);
-	font-weight: 700;
-	font-size: 36px;
+.b-two:hover {
+	background-color: var(--iris);
 }
-.header-three {
-	color: var(--navyblue);
-	font-weight: 500;
-	font-size: 20px;
+
+.b-three {
+	text-align: center;
+	background-color: var(--cloud);
+	color: var(--iris);
+	border: 1px solid var(--cornflower);
+}
+.b-three:hover {
+	background-color: var(--cornflower);
 }

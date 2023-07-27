@@ -45,7 +45,6 @@ body {
 	text-decoration: none;
 }
 .interactive:hover {
-	cursor: pointer;
 	color: var(--ocean);
 	text-decoration-line: underline;
 	border-radius: 2px;
@@ -66,10 +65,13 @@ body {
 	color: var(--cloud);
 }
 .button {
+	font-family: "Roboto", sans-serif;
 	font-weight: 500;
+	font-size: 16px;
 	letter-spacing: 0.04em;
 	border-radius: 4px;
 	border: none;
+	line-height: 1.5;
 }
 .button:hover {
 	cursor: pointer;
@@ -85,6 +87,10 @@ body {
 }
 .b-one:hover {
 	background-color: var(--ocean);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.b-one:focus {
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .header-three {
 	font-size: 20px;
@@ -113,6 +119,12 @@ body {
 }
 .b-two:hover {
 	background-color: var(--iris);
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+		0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.b-two:focus {
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+		0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .b-three {

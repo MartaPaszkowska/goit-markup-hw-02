@@ -76,20 +76,16 @@ body {
 .button:hover {
 	cursor: pointer;
 }
-.button:focus {
-	color: var(--activehover);
-}
 .b-one {
 	text-align: left;
 	color: var(--white);
 	background-color: var(--iris);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 	border: none;
 }
-.b-one:hover {
-	background-color: var(--ocean);
-	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
+.b-one:hover,
 .b-one:focus {
+	background-color: var(--ocean);
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .header-three {
@@ -113,26 +109,14 @@ body {
 }
 .b-two {
 	text-align: center;
-	background-color: var(--ocean);
-	color: var(--white);
-	border: none;
-}
-.b-two:hover {
-	background-color: var(--iris);
-	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-		0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-}
-.b-two:focus {
-	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-		0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-}
-
-.b-three {
-	text-align: center;
 	background-color: var(--cloud);
 	color: var(--iris);
 	border: 1px solid var(--cornflower);
 }
-.b-three:hover {
-	background-color: var(--cornflower);
+.b-two:hover,
+.b-two:focus {
+	color: var(--white);
+	background-color: var(--ocean);
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+		0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
